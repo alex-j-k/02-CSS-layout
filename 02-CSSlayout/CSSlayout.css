@@ -1,0 +1,90 @@
+
+
+.bodydiv {
+	background-image: linear-gradient(#fed8b1, lightblue);
+padding-bottom: 100px;
+height: 500px;
+}
+
+
+
+h1 {
+	color: red;
+}
+h2 {
+	text-align: center;
+}
+
+h3 {
+	text-align: center;
+}
+h4 {
+		text-align: center;
+
+}
+
+
+
+
+
+#firstgrid {
+	height: 500px;
+	display: grid;
+	grid-template-columns:16% 16% 16% 16% 16%;
+	grid-template-rows: 20% 60% 20%;
+	grid-template-areas: 
+	"blank header header header blank2"
+	"blank main main sidebar blank2"
+	"blank footer footer footer blank2";
+	grid-gap: 5%;
+	 text-align:center;
+}
+.boxcontents{
+	display: grid;
+  align-items: center;
+}
+
+
+#itema {
+	background-color: red;
+	grid-area: header;
+}
+
+#main {
+	background-color: blue;
+	grid-area: main;
+}
+#side{
+	background-color: orange;
+	grid-area: sidebar;
+}
+#footer {
+background-color: green;
+	grid-area: footer;
+}
+#blank{
+	background-color: yellow;
+	grid-area: blank;
+	
+}
+
+#blank2{
+	background-color: yellow;
+	grid-area: blank2;
+}
+
+
+.headmargin {
+	margin-top: 5%;
+}
+
+#todo {
+		margin-top: 15%;
+
+}
+
+  
+
+
+
+
